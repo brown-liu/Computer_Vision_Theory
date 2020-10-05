@@ -1,0 +1,11 @@
+ref: https://stereopi.com/blog/opencv-comparing-speed-c-and-python-code-raspberry-pi-stereo-vision
+
+CPP lib : raspividyuv
+Python lib :PiCamera
+
+ 	     1280x480 (stereoscopic)	640x240 (stereoscopic)
+C++	      40 fps	                90 fps
+Python  	15 fps	                20 fps
+
+****But there is a catch. Unlike the C++ solution, Python is much more sensitive to correct FPS configuration. 
+If you request substantially more than necessary, you’ll get not the maximum available FPS, but a sharp drop in FPS.
