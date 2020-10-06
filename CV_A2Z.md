@@ -13,6 +13,6 @@ Scan the similar sequence of CNN, Look for feature of face.
 <p>Edge Features.Line Features . Four-rectangle Features. </p>
 <p>each block of image array is compared with features mentioned above.
 eg, if nose is trained to have such a pattern. The algorithm will look for that pattern. and a threshold is set to decide what an array need to be to be classified as such feature.</p>
-
-<h3>Integral Image</h1>
-<p>speed up the feature scanning</p>
+                                                                                                   
+<h3>Integral Image</h1>                                                                               
+<p>speed up the feature scanning, number on each pixel equal to the sum of all the number in the rectangle of <----x axis and ^ y axis./p>
