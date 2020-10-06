@@ -14,5 +14,18 @@ Scan the similar sequence of CNN, Look for feature of face.
 <p>each block of image array is compared with features mentioned above.
 eg, if nose is trained to have such a pattern. The algorithm will look for that pattern. and a threshold is set to decide what an array need to be to be classified as such feature.</p>
                                                                                                    
-<h3>Integral Image</h1>                                                                               
-<p>speed up the feature scanning, number on each pixel equal to the sum of all the number in the rectangle of <----x axis and ^ y axis./p>
+<h3>Integral Image</h1>    
+<img src="harrlink.png">
+<p>speed up the feature scanning, number on each pixel equal to the sum of all the number in the rectangle of <----x axis and ^ y axis. </p>
+<img src="屏幕截图 2020-10-07 112646.png">
+  
+  <h3>Training Classifier</h3>
+  <p>24px X 24px </p>
+  <img src ="trainingclassifier.png">
+  <h1>AdaBoost</h1>
+  <p>problem for standard feature extraction: too many features, very slow. 
+  <strong>adaptor Booster use many weak classifier to build a strong classifier f(x)= a1*f1(x)+a2*f2(x)+...... </strong></p>
+  
+  <h3>Cascading </h3>
+  <img src="cascadingf.png">
+   <strong>Cascading use many weak classifier to build a strong classifier f(x)= a1*f1(x)+a2*f2(x)+...... </strong>
