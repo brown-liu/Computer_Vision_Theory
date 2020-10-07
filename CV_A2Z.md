@@ -1,5 +1,5 @@
 <a>Video Ref : https://www.youtube.com/watch?v=nvg0L0c0iPI&t=24997s</a>
-
+<h4>till today, oct2020 . ONLY SSD AND YOYO can detect object after looking only once!</h4>
 <h1>The Viola_johns Algorithm</h1>
 <p>Includes training & detection(same as training and prediction)
 This algorithm is designed to detect frontal faces. 
@@ -28,4 +28,10 @@ eg, if nose is trained to have such a pattern. The algorithm will look for that 
   
   <h3>Cascading </h3>
   <img src="cascadingf.png">
-   <strong>Cascading use many weak classifier to build a strong classifier f(x)= a1*f1(x)+a2*f2(x)+...... </strong>
+   <strong>Cascading use many strong classifier （one feature per classifier）to build a multi layer classifier f(x)= a1*f1(x)+a2*f2(x)+...... </strong>
+   
+  　<h1> SSD -single shot multi box detection </h1>
+<a>https://arxiv.org/pdf/1512.02325.pdf</a>
+<p>image pass through layers as a whole, not convelutional
+break down image into segments. detect if object in per box.
+</p>
