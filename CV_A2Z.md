@@ -35,3 +35,30 @@ eg, if nose is trained to have such a pattern. The algorithm will look for that 
 <p>image pass through layers as a whole, not convelutional
 break down image into segments. detect if object in per box.
 </p>
+<h3> scale problem</h3>
+<p>if object in image is too big, might not reconize</p>
+
+
+<h1>GANs</h1>
+<p>Generative adversarial Network
+nn is good at classify and predict things, 
+GANs create things for it self.
+It learn from real world, create new object that never exists before.
+(imagination)
+[generator] <== partners  ==>[Descrimnator]  
+both ators start from 0, and learn together.
+Generator builds the models, match the new model to different models.(bit of same to all)
+  Discrimainator find a decision boundry that seperate each models.
+  
+</p>
+  
+<h3>3 steps(each step is iteration)</h3>
+<p>STEP: 1
+  noise =>> generator (random image to start)
+  generator=== >> output image
+  output image. + labelled images ====>> descrimnator
+  
+
+</p>
+<p></p>
+<p></p>
